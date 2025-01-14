@@ -221,3 +221,4 @@ export class DataSource extends DataSourceApi<SplunkQuery, SplunkDataSourceOptio
     return defaultQueryRequestResults;
   }
 }
+
