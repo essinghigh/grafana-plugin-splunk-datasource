@@ -20,5 +20,5 @@ down:
 	-docker-compose down
 
 release:
-	npm install @semantic-release/exec @semantic-release/github @semantic-release/git @semantic-release/changelog semantic-release@19.0.2
-	npx semantic-release $(RELEASE_OPTS)
+	npm install @semantic-release/exec @semantic-release/github @semantic-release/git @semantic-release/changelog semantic-release@19.0.2 --legacy-peer-deps
+	npx semantic-release $(RELEASE_OPTS) --legacy-peer-deps
