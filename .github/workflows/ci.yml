@@ -7,10 +7,10 @@ concurrency:
 on:
   push:
     branches:
-      - main
+      - feature/panel-query-variables
   pull_request:
     branches:
-      - main
+      - feature/panel-query-variables
   workflow_dispatch:
 
 jobs:
